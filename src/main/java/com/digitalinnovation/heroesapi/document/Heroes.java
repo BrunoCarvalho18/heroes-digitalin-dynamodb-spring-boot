@@ -13,8 +13,8 @@ import lombok.NoArgsConstructor;
 public class Heroes {
 	
 	@Id
-    @DynamoDBHashKey(attributeName="id")
-    @DynamoDBAttribute(attributeName="id")
+        @DynamoDBHashKey(attributeName="id")
+        @DynamoDBAttribute(attributeName="id")
 	private String id;
 	@DynamoDBAttribute(attributeName="name")
 	private String name;
